@@ -26,7 +26,7 @@ const app = express();
 // app.use(cors());
 
 app.use(cors({
-    origin: 'https://clinic-web-app.vercel.app/',
+    origin: 'https://clinic-web-app.vercel.app',
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     allowedHeaders: ['Content-Type', 'Authorization'],
 }));
